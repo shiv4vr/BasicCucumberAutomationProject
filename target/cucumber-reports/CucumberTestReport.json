@@ -1,0 +1,539 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: shivanand havannavar --\u003e shiv4vr@gmail.com"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Retrieve the top-ten results for keyword from Google Search",
+        "description": "",
+        "id": "keyowrd-search-result;retrieve-the-top-ten-results-for-keyword-from-google-search;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 149817100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Google Search Page",
+            "match": {
+              "location": "KeywordSearch.user_is_on_Google_Search_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2018004300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"mobile\" keyword in Search TextBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile",
+                  "offset": 12
+                }
+              ],
+              "location": "KeywordSearch.user_enter_keyword_in_Search_TextBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6830400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the Result Page Title",
+            "match": {
+              "location": "KeywordSearch.validate_the_Result_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94001400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Retrieve the top-ten results from Results Page",
+            "match": {
+              "location": "KeywordSearch.retrieve_the_top_ten_results_from_Results_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226820800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Store it in a Results-Data-file",
+            "match": {
+              "location": "KeywordSearch.store_it_in_a_Results_Data_file()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Retrieve the top-ten results for keyword from Google Search",
+        "description": "",
+        "id": "keyowrd-search-result;retrieve-the-top-ten-results-for-keyword-from-google-search;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6431400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Google Search Page",
+            "match": {
+              "location": "KeywordSearch.user_is_on_Google_Search_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2710368700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"car\" keyword in Search TextBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "car",
+                  "offset": 12
+                }
+              ],
+              "location": "KeywordSearch.user_enter_keyword_in_Search_TextBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5951100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the Result Page Title",
+            "match": {
+              "location": "KeywordSearch.validate_the_Result_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87729300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Retrieve the top-ten results from Results Page",
+            "match": {
+              "location": "KeywordSearch.retrieve_the_top_ten_results_from_Results_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 200948200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Store it in a Results-Data-file",
+            "match": {
+              "location": "KeywordSearch.store_it_in_a_Results_Data_file()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Retrieve the top-ten results for keyword from Google Search",
+        "description": "",
+        "id": "keyowrd-search-result;retrieve-the-top-ten-results-for-keyword-from-google-search;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9223300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Google Search Page",
+            "match": {
+              "location": "KeywordSearch.user_is_on_Google_Search_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2449333300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"hotel\" keyword in Search TextBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hotel",
+                  "offset": 12
+                }
+              ],
+              "location": "KeywordSearch.user_enter_keyword_in_Search_TextBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4848400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the Result Page Title",
+            "match": {
+              "location": "KeywordSearch.validate_the_Result_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118484400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Retrieve the top-ten results from Results Page",
+            "match": {
+              "location": "KeywordSearch.retrieve_the_top_ten_results_from_Results_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251562900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Store it in a Results-Data-file",
+            "match": {
+              "location": "KeywordSearch.store_it_in_a_Results_Data_file()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Retrieve the top-ten results for keyword from Google Search",
+        "description": "",
+        "id": "keyowrd-search-result;retrieve-the-top-ten-results-for-keyword-from-google-search;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8149800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Google Search Page",
+            "match": {
+              "location": "KeywordSearch.user_is_on_Google_Search_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2460662100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"selenium\" keyword in Search TextBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium",
+                  "offset": 12
+                }
+              ],
+              "location": "KeywordSearch.user_enter_keyword_in_Search_TextBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6090800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the Result Page Title",
+            "match": {
+              "location": "KeywordSearch.validate_the_Result_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 145777500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Retrieve the top-ten results from Results Page",
+            "match": {
+              "location": "KeywordSearch.retrieve_the_top_ten_results_from_Results_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 206067400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Store it in a Results-Data-file",
+            "match": {
+              "location": "KeywordSearch.store_it_in_a_Results_Data_file()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Retrieve the top-ten results for keyword from Google Search",
+        "description": "",
+        "id": "keyowrd-search-result;retrieve-the-top-ten-results-for-keyword-from-google-search;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9373700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Google Search Page",
+            "match": {
+              "location": "KeywordSearch.user_is_on_Google_Search_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2352340400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"bikes\" keyword in Search TextBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bikes",
+                  "offset": 12
+                }
+              ],
+              "location": "KeywordSearch.user_enter_keyword_in_Search_TextBox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5316700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the Result Page Title",
+            "match": {
+              "location": "KeywordSearch.validate_the_Result_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105227700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Retrieve the top-ten results from Results Page",
+            "match": {
+              "location": "KeywordSearch.retrieve_the_top_ten_results_from_Results_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 197461000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Store it in a Results-Data-file",
+            "match": {
+              "location": "KeywordSearch.store_it_in_a_Results_Data_file()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Display stored result from file to Console",
+        "description": "",
+        "id": "keyowrd-search-result;display-stored-result-from-file-to-console",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4095700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Read the data from Results-Data-file",
+            "match": {
+              "location": "KeywordSearch.read_the_data_from_Results_Data_file()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1013600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Display data in console",
+            "match": {
+              "location": "KeywordSearch.display_data_in_console()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Keyowrd Search Result",
+    "description": "",
+    "id": "keyowrd-search-result",
+    "keyword": "Feature",
+    "uri": "KeywordSearch.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: shivanand havannavar --\u003e shiv4vr@gmail.com"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check the links are wokring fine for search result and check the Occurance of Search keyword",
+        "description": "",
+        "id": "link-availbility-and-keyword-occurance;check-the-links-are-wokring-fine-for-search-result-and-check-the-occurance-of-search-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7499800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Google-Search Page",
+            "match": {
+              "location": "KeywordSearchLinkAndOccurrance.user_is_on_Google_Search_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2329493500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters \"Laptop\" keyword in Search TextBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptop",
+                  "offset": 13
+                }
+              ],
+              "location": "KeywordSearchLinkAndOccurrance.user_Enters_keyword_in_Search_TextBox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4593800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate the Result Page-Title",
+            "match": {
+              "location": "KeywordSearchLinkAndOccurrance.validate_the_Result_Page_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4071833000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Validate the Link availibilty",
+            "match": {
+              "location": "KeywordSearchLinkAndOccurrance.validate_the_Link_availibilty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 204933500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Valdiate the keyword occurance",
+            "match": {
+              "location": "KeywordSearchLinkAndOccurrance.valdiate_the_keyword_occurance()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Link availbility and Keyword Occurance",
+    "description": "",
+    "id": "link-availbility-and-keyword-occurance",
+    "keyword": "Feature",
+    "uri": "KeywordSearchLinkAndOccurrance.feature"
+  }
+]
